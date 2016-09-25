@@ -1,0 +1,27 @@
+name: ebay_api_config
+
+# Trading API Sandbox - https//www.x.com/developers/ebay/products/trading-api
+api.sandbox.ebay.com:
+    compatability: 719
+    appid: SeanMass-TimeVisi-PRD-04d8cb72c-536a1ab7
+    certid: PRD-4d8cb72c68da-e09b-49a3-a84b-22cb
+    devid: e891de5d-30cc-4f1a-aeeb-034a2356e98e
+    token: 
+
+# Trading API - https//www.x.com/developers/ebay/products/trading-api
+api.ebay.com:
+    compatability: 719
+    appid: SeanMass-TimeVisi-PRD-04d8cb72c-536a1ab7
+    certid: PRD-4d8cb72c68da-e09b-49a3-a84b-22cb
+    devid: e891de5d-30cc-4f1a-aeeb-034a2356e98e
+    token: 
+
+# Finding API - https//www.x.com/developers/ebay/products/finding-api
+svcs.ebay.com:
+    appid: SeanMass-TimeVisi-PRD-04d8cb72c-536a1ab7
+    version: 1.0.0
+
+# Shopping API - https//www.x.com/developers/ebay/products/shopping-api
+open.api.ebay.com:
+    appid: SeanMass-TimeVisi-PRD-04d8cb72c-536a1ab7
+    version: 671
