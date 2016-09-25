@@ -56,7 +56,6 @@ def construction(_searches, _prices):  ## builds results as lists
 	print 'Searching for items:'
 	for term in _searches:
 		raw_data[term] = []
-		print(raw_data[term])
 		print(term.rjust(30, ' ')+'. . . '+str(count + 1).rjust(3, ' ')+' / '+total_count)
 		raw_data[term].extend([float(_prices[count]), (request_builder(term, itemFilters))])
 		count += 1
